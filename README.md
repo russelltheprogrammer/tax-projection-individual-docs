@@ -1,4 +1,4 @@
-# Link to Tax Projection Individual Application --> [Tax Projection - Individual Application](https://taxprojection.com)
+# [TaxProjection.com (Tax Projection Individual Application)](https://taxprojection.com)
 
 ## Technical Documentation :memo:
 
