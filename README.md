@@ -24,6 +24,20 @@
 + New York
 + New York City
 
+
+### What Are Quarterly Estimated Taxes?
+
+Generally there are two options when you need to pay your quarterly estimated taxes, Actual and Safe Harbor. **You may pay the lesser of the two options.** If you do not pay quarterly estimated taxes you could be subject to interest and penalties.
+
+1. Option 1 - Actual Tax Method
+When paying estimated taxes to the IRS you must pay 90% of the current tax year's estimated tax. This is broken down into quarters, so you must pay 90% of the tax of the current
+quarter's estimated taxable income (Note, some states differ on the percentage). However, you should annualize income per quarter so that you are using the correct effective tax rate based on your tax bracket.
+
+2. Option 2 - Safe Harbor Tax Method
+The second option is to pay your estimated taxes based on the Safe Harbor Method. The Safe Harbor Method is based on paying 100% (110% if above AGI threshold) of the prior year's tax per quarter. Essentially you would be paying 25% of 100% of the prior year's tax per quarter (Note, some states differ on the percentage). This option is simpler and much less time consuming than the Actual Tax Method. However, a few downsides are if you are projected to make less money in the current year than the prior year, you would be overpaying your tax. In addition, if tax is similar, 100% using the Safe Harbor Method is larger than 90% using the Actual Method. Safe Harbor is recommended if you are projected to have a larger tax balance in the current year compared to the prior year.
+
+There are many factors to consider when choosing between the Actual Tax Method and the Safe Harbor Method. Another item to note is you can change between methods every quarter. For example, income was projected to be very high in quarter 1 so you decided to use the Safe Harbor Method to pay your first quarter estimates. In quarter 2, income was projected to be a lot lower than antipicated, you could then decide to use the Actual Method for the second quarter.
+
 ### Other Notes
 
 + If you wish to turn annualization off, click the button to the far right of the respective line item in the input section. Short-term capital gains/(losses) and long-term capital gains/(losses) have annualization turned off by default.
