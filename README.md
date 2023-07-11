@@ -106,9 +106,16 @@ My Github Homepage: [https://github.com/russelltheprogrammer/](https://github.co
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.2.2**
+**Current version: 1.3.0**
 
 ### Release Notes Log
+
+07/11/23
+Version 1.3.0
++ Add safe harbor and comparison feature
++ Moved documentation to its own repo
++ Refactored portion of codebase to make more legible
++ Added migration backend feature for future database changes
 
 06/27/23
 Version 1.2.2
