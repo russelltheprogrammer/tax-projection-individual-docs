@@ -106,9 +106,16 @@ My Github Homepage: [https://github.com/russelltheprogrammer/](https://github.co
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.3.0**
+**Current version: 1.3.1**
 
 ### Release Notes Log
+
+07/12/23
+Version 1.3.1
++ Removed operation sign button in Input Numbers Section
++ Input in Input Numbers Section will now be strings for better user experience
++ Input Numbers section no longer has a Submit Button. All numbers are automatically updated in the INCOME, DEDUCTION, AND TAX SUMMARY Section
++ Highlighting of numbers as red in Input Numbers Section removed. Will be added back as soon as possible in next update.
 
 07/11/23
 Version 1.3.0
