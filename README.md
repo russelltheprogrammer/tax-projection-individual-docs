@@ -106,9 +106,12 @@ My Github Homepage: [https://github.com/russelltheprogrammer/](https://github.co
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.3.1**
+**Current version: 1.3.2**
 
 ### Release Notes Log
+
+07/13/23 1.3.2
++ Numbers will turn red if they are negative in Input Numbers Section
 
 07/12/23
 Version 1.3.1
