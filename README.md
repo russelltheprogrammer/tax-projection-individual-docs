@@ -6,45 +6,43 @@
 
 #### Included
 
-+ Ordinary Tax
-+ Capital Gains Tax
-+ Self-Employment Tax
+- Ordinary Tax
+- Capital Gains Tax
+- Self-Employment Tax
 
 #### Not Included
 
-+ Alternative Minimum Tax
-+ Net Investment Income Tax
-+ Additional Medicare Tax
-+ MCTMT Tax
+- Alternative Minimum Tax
+- Net Investment Income Tax
+- Additional Medicare Tax
+- MCTMT Tax
 
 ### Jurisdications Included
 
-+ Federal
-+ States with no income tax
-+ New York
-+ New York City
-
+- Federal
+- States with no income tax
+- New York
+- New York City
 
 ### What Are Quarterly Estimated Taxes?
 
 Generally there are two options when you need to pay your quarterly estimated taxes, Actual and Safe Harbor. **You may pay the lesser of the two options.** If you do not pay quarterly estimated taxes you could be subject to interest and penalties.
 
 1. Option 1 - Actual Tax Method
-When paying estimated taxes to the IRS you must pay 90% of the current tax year's estimated tax. This is broken down into quarters, so you must pay 90% of the tax of the current
-quarter's estimated taxable income (Note, some states differ on the percentage). However, you should annualize income per quarter so that you are using the correct effective tax rate based on your tax bracket.
+   When paying estimated taxes to the IRS you must pay 90% of the current tax year's estimated tax. This is broken down into quarters, so you must pay 90% of the tax of the current
+   quarter's estimated taxable income (Note, some states differ on the percentage). However, you should annualize income per quarter so that you are using the correct effective tax rate based on your tax bracket.
 
 2. Option 2 - Safe Harbor Tax Method
-The second option is to pay your estimated taxes based on the Safe Harbor Method. The Safe Harbor Method is based on paying 100% (110% if above AGI threshold) of the prior year's tax per quarter. Essentially you would be paying 25% of 100% of the prior year's tax per quarter (Note, some states differ on the percentage). This option is simpler and much less time consuming than the Actual Tax Method. However, a few downsides are if you are projected to make less money in the current year than the prior year, you would be overpaying your tax. In addition, if tax is similar, 100% using the Safe Harbor Method is larger than 90% using the Actual Method. Safe Harbor is recommended if you are projected to have a larger tax balance in the current year compared to the prior year.
+   The second option is to pay your estimated taxes based on the Safe Harbor Method. The Safe Harbor Method is based on paying 100% (110% if above AGI threshold) of the prior year's tax per quarter. Essentially you would be paying 25% of 100% of the prior year's tax per quarter (Note, some states differ on the percentage). This option is simpler and much less time consuming than the Actual Tax Method. However, a few downsides are if you are projected to make less money in the current year than the prior year, you would be overpaying your tax. In addition, if tax is similar, 100% using the Safe Harbor Method is larger than 90% using the Actual Method. Safe Harbor is recommended if you are projected to have a larger tax balance in the current year compared to the prior year.
 
 There are many factors to consider when choosing between the Actual Tax Method and the Safe Harbor Method. Another item to note is you can change between methods every quarter. For example, income was projected to be very high in quarter 1 so you decided to use the Safe Harbor Method to pay your first quarter estimates. In quarter 2, income was projected to be a lot lower than antipicated, you could then decide to use the Actual Method for the second quarter.
 
 ### Other Notes
 
-+ If you wish to turn annualization off, click the button to the far right of the respective line item in the input section. Short-term capital gains/(losses) and long-term capital gains/(losses) have annualization turned off by default.
-+ To make a number in the input section positive or negative, click the button directly to the right of it. (This functionality to be improved in a future update).
-+ Short-Term and Long-Term Capital Losses are limited to -$3,000
-+ Tax projection is currently using 2023 tax rates
-
+- If you wish to turn annualization off, click the button to the far right of the respective line item in the input section. Short-term capital gains/(losses) and long-term capital gains/(losses) have annualization turned off by default.
+- To make a number in the input section positive or negative, click the button directly to the right of it. (This functionality to be improved in a future update).
+- Short-Term and Long-Term Capital Losses are limited to -$3,000
+- Tax projection is currently using 2023 tax rates
 
 ## Disclosure: :rotating_light:
 
@@ -70,27 +68,23 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Key Concepts Used
 
-+ MERN STACK
-+ Redux
-+ Javascript
-+ Typescript
-+ Custom Functions
-+ Custom CSS
-+ React components
-+ React hooks
-+ Handle onClick and onChange Functions
-+ Bootstrap
-+ Material UI
-+ MongoDB
-+ Mongoose
-+ Express.js
-+ Node.js
-+ Auth0
-+ And much more
-
-## Source Code?
-
-Check out my source code above.
+- MERN STACK
+- Redux
+- Javascript
+- Typescript
+- Custom Functions
+- Custom CSS
+- React components
+- React hooks
+- Handle onClick and onChange Functions
+- Bootstrap
+- Material UI
+- MongoDB
+- Mongoose
+- Express.js
+- Node.js
+- Auth0
+- And much more
 
 ## Feedback?
 
@@ -111,45 +105,46 @@ My Github Homepage: [https://github.com/russelltheprogrammer/](https://github.co
 ### Release Notes Log
 
 07/13/23 1.3.2
-+ Numbers will turn red if they are negative in Input Numbers Section
+
+- Numbers will turn red if they are negative in Input Numbers Section
 
 07/12/23
 Version 1.3.1
-+ Removed operation sign button in Input Numbers Section
-+ Input in Input Numbers Section will now be strings for better user experience
-+ Input Numbers section no longer has a Submit Button. All numbers are automatically updated in the INCOME, DEDUCTION, AND TAX SUMMARY Section
-+ Highlighting of numbers as red in Input Numbers Section removed. Will be added back as soon as possible in next update.
+
+- Removed operation sign button in Input Numbers Section
+- Input in Input Numbers Section will now be strings for better user experience
+- Input Numbers section no longer has a Submit Button. All numbers are automatically updated in the INCOME, DEDUCTION, AND TAX SUMMARY Section
+- Highlighting of numbers as red in Input Numbers Section removed. Will be added back as soon as possible in next update.
 
 07/11/23
 Version 1.3.0
-+ Add safe harbor and comparison feature
-+ Moved documentation to its own repo
-+ Refactored portion of codebase to make more legible
-+ Added migration backend feature for future database changes
+
+- Add safe harbor and comparison feature
+- Moved documentation to its own repo
+- Refactored portion of codebase to make more legible
+- Added migration backend feature for future database changes
 
 06/27/23
 Version 1.2.2
-+ Added a reset button to the Tax Assumptions box
+
+- Added a reset button to the Tax Assumptions box
 
 06/26/23
 Version 1.2.1
-+ Changed layout of input numbers to a grid system
+
+- Changed layout of input numbers to a grid system
 
 06/26/23
 Version 1.2.0
-+ Added ability to annualize certain payments
-+ Changes to backend & frontend data types and structures
+
+- Added ability to annualize certain payments
+- Changes to backend & frontend data types and structures
 
 06/23/23
 Version 1.1.0
-+ Added button to hide -0- rows in the "Income, Deduction, and Tax Summary"
-+ State columns will now be hidden when not in use
+
+- Added button to hide -0- rows in the "Income, Deduction, and Tax Summary"
+- State columns will now be hidden when not in use
 
 06/20/23
 Version 1.0.0 is now live!
-
-
-
-
-
-
