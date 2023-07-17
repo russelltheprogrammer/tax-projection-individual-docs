@@ -56,7 +56,7 @@ There are many factors to consider when choosing between the Actual Tax Method a
   - Delete: Delete clients.
   - Logout: Sign out.
 
-##### Client Title Box
+#### Client Title Box
 
 Input the NAME and ID of the intended client. This is needed to be able to save a client.
 
