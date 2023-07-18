@@ -2,6 +2,18 @@
 
 ## Technical Documentation :memo:
 
+### What Are Quarterly Estimated Taxes?
+
+Generally there are two options when you need to pay your quarterly estimated taxes, Actual and Safe Harbor. **You may pay the lesser of the two options.** If you do not pay quarterly estimated taxes you could be subject to interest and penalties.
+
+1. Option 1 - Actual Tax Method<br>
+   When paying estimated taxes to the IRS you must pay 90% of the current tax year's estimated tax. This is broken down into quarters, so you must pay 90% of the tax of the current quarter's estimated taxable income (Note, some states differ on the percentage). However, you should annualize income per quarter so that you are using the correct effective tax rate based on your tax bracket.
+
+2. Option 2 - Safe Harbor Tax Method<br>
+   The second option is to pay your estimated taxes based on the Safe Harbor Method. The Safe Harbor Method is based on paying 100% (110% if above the AGI threshold) of the prior year's tax per quarter. Essentially you would be paying 25% of 100% of the prior year's tax per quarter (Note, some states differ on the percentage). This option is simpler and much less time consuming than the Actual Tax Method. However, a few downsides are if you are projected to make less money in the current year than the prior year, you would be overpaying your tax. In addition, if tax is similar, 100% using the Safe Harbor Method is larger than 90% using the Actual Method. Safe Harbor is recommended if you are projected to have a larger tax balance in the current year compared to the prior year.
+
+There are many factors to consider when choosing between the Actual Tax Method and the Safe Harbor Method. Another item to note is you can change between methods every quarter. For example, income was projected to be very high in quarter 1 so you decided to use the Safe Harbor Method to pay your first quarter estimates. In quarter 2, income was projected to be a lot lower than anticipated, you could then decide to use the Actual Method for the second quarter.
+
 ### Tax Types
 
 #### Included
@@ -24,18 +36,6 @@
 - New York
 - New York City
 
-### What Are Quarterly Estimated Taxes?
-
-Generally there are two options when you need to pay your quarterly estimated taxes, Actual and Safe Harbor. **You may pay the lesser of the two options.** If you do not pay quarterly estimated taxes you could be subject to interest and penalties.
-
-1. Option 1 - Actual Tax Method
-   When paying estimated taxes to the IRS you must pay 90% of the current tax year's estimated tax. This is broken down into quarters, so you must pay 90% of the tax of the current quarter's estimated taxable income (Note, some states differ on the percentage). However, you should annualize income per quarter so that you are using the correct effective tax rate based on your tax bracket.
-
-2. Option 2 - Safe Harbor Tax Method
-   The second option is to pay your estimated taxes based on the Safe Harbor Method. The Safe Harbor Method is based on paying 100% (110% if above AGI threshold) of the prior year's tax per quarter. Essentially you would be paying 25% of 100% of the prior year's tax per quarter (Note, some states differ on the percentage). This option is simpler and much less time consuming than the Actual Tax Method. However, a few downsides are if you are projected to make less money in the current year than the prior year, you would be overpaying your tax. In addition, if tax is similar, 100% using the Safe Harbor Method is larger than 90% using the Actual Method. Safe Harbor is recommended if you are projected to have a larger tax balance in the current year compared to the prior year.
-
-There are many factors to consider when choosing between the Actual Tax Method and the Safe Harbor Method. Another item to note is you can change between methods every quarter. For example, income was projected to be very high in quarter 1 so you decided to use the Safe Harbor Method to pay your first quarter estimates. In quarter 2, income was projected to be a lot lower than anticipated, you could then decide to use the Actual Method for the second quarter.
-
 ### Other Notes
 
 - If you wish to turn annualization off, click the button to the far right of the respective line item in the input section. Short-term capital gains/(losses) and long-term capital gains/(losses) have annualization turned off by default.
@@ -50,21 +50,21 @@ There are many factors to consider when choosing between the Actual Tax Method a
 - Contact: Links to Russell's contact information. Send him a message!
 - Info: General information & disclosure about the web application
 - Login: Create an account to login and save clients. Once logged in the Profile Button will appear which contains the following.
-  - Profile: Gives user information and a list of all of the user's saved clients with name and Id. This is helpful if a user forgets a client's name or Id and needs to use the other login functions.
-  - Save: Save clients for use in the future.
+  - Profile: Gives user information and a list of all of the user's saved clients with name and id. This is helpful if a user forgets a client's name or id and needs to use the other login functions.
+  - Save: Save clients for future use.
   - Load: Load clients.
   - Delete: Delete clients.
   - Logout: Sign out.
 
 #### Client Title Box
 
-Input the NAME and ID of the intended client. This is needed to be able to save a client.
+Input the NAME and ID of the intended client. This is needed to be able to save a client. Once saved, this is the NAME and ID of a client that will show up in the Profile and how the client will be loaded or deleted in the future.
 
 #### Tax Assumptions
 
-This section is where one must choose the specific tax assumptions that are used to calculate the specific tax.
+This section is where one must choose the specific tax assumptions that are used to calculate the tax.
 
-- Quarter: There are 4 quarters. Choose the respective quarter that is applicable. IRS quarters are from the following dates, Quarter 1 (1/1 to 3/31), Quarter 2 (4/1 - 5/30), Quarter 3 (6/1 - 8/31), and Quarter 4 (9/1 - 12/31).
+- Quarter: There are 4 quarters. Choose the respective quarter that is applicable. IRS quarters are from the following dates, Quarter 1 (1/1 to 3/31), Quarter 2 (4/1 - 5/30), Quarter 3 (6/1 - 8/31), and Quarter 4 (9/1 - 12/31). Most states have the same quarters but some states have different percentages of tax that must be paid per quarter.
 - Filing Status: There are 4 options, Single, MFJ (Married Filing Joint), MFS (Married Filing Separate), HOH (Head Of Household)
 - Standard/Itemized: Standard Deduction is the default deduction while Itemized Deduction is an aggregate of multiple expenses which are limited according to specific thresholds and limitations. Some of them are medical expenses, charitable contributions, SALT (State And Local Taxes), interest expense including mortgage interest expense, and others.
 - Dependents: Number of dependents that the taxpayer has. This includes children, certain relatives, and others.
@@ -89,6 +89,8 @@ It is recommended to start here to learn more about line numbers. Instructions c
 
 ##### ADJUSTMENTS
 
+These adjustments reduce Adjusted Gross Income directly.
+
 - HSA Contributions: Contributions to Health Savings Accounts. This is limited and the limit is different according to Filing Status.
 - S/E Insurance: Self-Employed Health Insurance. This is health insurance that that can be deducted if you are self-employed. It is limited according to Business Income (Schedule C).
 - Retirement Deduction: There are many different types of retirement deductions and some are more limited then others to what is allowed to be deducted.
@@ -97,15 +99,50 @@ It is recommended to start here to learn more about line numbers. Instructions c
 
 ##### ITEMIZED DEDUCTIONS
 
+Itemized deductions are a substitute for the standard deduction. Specific itemized deductions are limited to certain caps or thresholds above a percentages of Adjusted Gross Income. At this time, this application does not calculate these limitations automatically. In the future, it is intended to be added, including what is more beneficial, standard deduction or itemized deduction.
+
+- Medical: Expenses for medical care such as doctors, prescription drugs, health insurance premiums (not self-employed or self-employed health insurance that was limited), and other qualified medical care.
+- Taxes Paid: State And Local Taxes (SALT) paid such as state income taxes, real estate taxes, or other taxes.
+- Interest Paid: Interest expense through loans, investments, home mortgage, and other interest expense.
+- Charity: Charitable donations made to qualified organizations. Cash and non-cash donations are allowed but subject to different limitations.
+- Other Itemized Deductions: Any other itemized deductions not listed above.
+- State Specific Itemized Deductions: Any other state itemized deductions not listed above.
+
 ##### FEDERAL OTHER
+
+- Qualified Business Income Deduction: Section 199A business deduction on certain business income, REIT dividends, and PTP income. In the future, this area will be expanded. Currently, it will not be calculated automatically and it must be calculated manually.
+- Other Federal Income/(Deductions): Other income or deductions not listed.
 
 ##### STATE OTHER
 
+- Other State Income/(Deductions): Other specific state income or deductions not already listed.
+- State Additions: State specific additions.
+- State Subtractions (Negative): State specific subtractions.
+
 ##### OTHER TAXES
+
+- Other Federal Taxes: Additional Federal taxes not included.
+- Other State Taxes: Additional State taxes not included.
 
 ##### FEDERAL TAX PAYMENTS
 
+- Wages Withholding: Income tax withholding through W-2.
+- Prior Year Overpayment: As description states. Check prior year tax return.
+- First Quarter Estimate: As description states
+- Second Quarter Estimate: As description states
+- Third Quarter Estimate: As description states
+- Fourth Quarter Estimate: As description states
+- Credits: Federal tax credits which reduce tax. Credits have certain thresholds, phase-outs, and limitations.
+
 ##### STATE TAX PAYMENTS
+
+- Wages Withholding: Income tax withholding through W-2.
+- Prior Year Overpayment: As description states. Check prior year tax return.
+- First Quarter Estimate: As description states
+- Second Quarter Estimate: As description states
+- Third Quarter Estimate: As description states
+- Fourth Quarter Estimate: As description states
+- Credits: State tax credits which reduce tax. Credits have certain thresholds, phase-outs, and limitations.
 
 ## More Features? :bulb:
 
@@ -210,4 +247,4 @@ Version 1.0.0 is now live!
 
 ## Disclosure: :rotating_light:
 
-Although I do believe this tax projection to be accurate and I have tested it for bugs do not rely upon this to estimate your own taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
+Although I do believe this tax projection to be accurate and I have tested it for bugs, do not rely upon this to estimate your own taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
