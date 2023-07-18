@@ -82,7 +82,7 @@ It is recommended to start here to learn more about line numbers. Instructions c
 - Ordinary Dividends: This is usually earned from brokerage accounts or corporations.
 - Qualified Dividends: These are dividends that have a beneficial tax treatment. These should be separated from Ordinary Dividends.
 - Retirement Income: Income earned from retirement. Exclusions not included for different types of retirement income such as Social Security.
-- Short-Term Capital Gains/(Losses) - Capital gains and losses are usually earned by the sale of stocks but there are many other varieties of assets that can be sold as a capital gain or loss. Short-term specifically has a holding period of less than a year.
+- Short-Term Capital Gains/(Losses) - Capital gains and losses are usually earned by the sale of stocks but there are many other variety of assets that can be sold as a capital gain or loss. Short-term specifically has a holding period of less than a year.
 - Long-Term Capital Gains/(Losses) - Capital gains and losses just like Short-Term except the holding period is greater than a year. Long-Term has a beneficial tax treatment.
 - Business Income (Schedule C): Net income (income less expenses) earned through a business. Business income is subject to self-employment tax. The rules behind business income is complicated.
 - Other Income: Other income not listed above.
@@ -92,18 +92,18 @@ It is recommended to start here to learn more about line numbers. Instructions c
 These adjustments reduce Adjusted Gross Income directly.
 
 - HSA Contributions: Contributions to Health Savings Accounts. This is limited and the limit is different according to Filing Status.
-- S/E Insurance: Self-Employed Health Insurance. This is health insurance that that can be deducted if you are self-employed. It is limited according to Business Income (Schedule C).
-- Retirement Deduction: There are many different types of retirement deductions and some are more limited then others to what is allowed to be deducted.
-- Student Loan Interest: Interest expense related to student loans. This deduction is limited to a certain threshold and phases out once a certain AGI level is met.
+- S/E Health Insurance: Self-Employed Health Insurance. This is health insurance that that can be deducted if you are self-employed. It is limited according to Business Income (Schedule C).
+- Retirement Deduction: There are many different types of retirement deductions and some are more limited than others to what is allowed to be deducted.
+- Student Loan Interest: Interest expense related to student loans. This deduction is limited to a certain threshold and phases out once a certain Adjusted Groos Income (AGI) level is met.
 - Other Adjustments: Other adjustments not listed above.
 
 ##### ITEMIZED DEDUCTIONS
 
 Itemized deductions are a substitute for the standard deduction. Specific itemized deductions are limited to certain caps or thresholds above a percentages of Adjusted Gross Income. At this time, this application does not calculate these limitations automatically. In the future, it is intended to be added, including what is more beneficial, standard deduction or itemized deduction.
 
-- Medical: Expenses for medical care such as doctors, prescription drugs, health insurance premiums (not self-employed or self-employed health insurance that was limited), and other qualified medical care.
-- Taxes Paid: State And Local Taxes (SALT) paid such as state income taxes, real estate taxes, or other taxes.
-- Interest Paid: Interest expense through loans, investments, home mortgage, and other interest expense.
+- Medical: Expenses for medical care such as doctors, prescription drugs, health insurance premiums (not self-employed or self-employed health insurance that is limited), and other qualified medical care.
+- Taxes Paid: State And Local Taxes (SALT) paid such as state income taxes, real estate taxes, and other taxes.
+- Interest Paid: Interest expense through loans, investments, home mortgage, and others.
 - Charity: Charitable donations made to qualified organizations. Cash and non-cash donations are allowed but subject to different limitations.
 - Other Itemized Deductions: Any other itemized deductions not listed above.
 - State Specific Itemized Deductions: Any other state itemized deductions not listed above.
@@ -126,7 +126,7 @@ Itemized deductions are a substitute for the standard deduction. Specific itemiz
 
 ##### FEDERAL TAX PAYMENTS
 
-- Wages Withholding: Income tax withholding through W-2.
+- Wages Withholding: Income tax withholding through W-2 or other sources.
 - Prior Year Overpayment: As description states. Check prior year tax return.
 - First Quarter Estimate: As description states
 - Second Quarter Estimate: As description states
@@ -136,7 +136,7 @@ Itemized deductions are a substitute for the standard deduction. Specific itemiz
 
 ##### STATE TAX PAYMENTS
 
-- Wages Withholding: Income tax withholding through W-2.
+- Wages Withholding: Income tax withholding through W-2 or other sources.
 - Prior Year Overpayment: As description states. Check prior year tax return.
 - First Quarter Estimate: As description states
 - Second Quarter Estimate: As description states
@@ -146,7 +146,7 @@ Itemized deductions are a substitute for the standard deduction. Specific itemiz
 
 ## More Features? :bulb:
 
-In the future, I plan to make a more advanced version of the application. However, I build this application all by myself and I have limited time capacity. There are a lot of additional features I would have liked to add to make this application more accurate and more functional, including adding additional scenarios, more jurisdictions, and the list goes on...
+I continue to add more features and make a more advanced version of this application. However, I build this application all by myself and I have limited time capacity. There are a lot of additional features I would like to add to make this application more accurate and more functional, including adding additional scenarios, more state jurisdictions, and the list goes on...
 
 If you have a specific feature requests? Please let me know.
 
@@ -166,11 +166,11 @@ My Github Homepage: [https://github.com/russelltheprogrammer/](https://github.co
 
 I developed this application entirely from scratch, encompassing the entire process from idea generation to conceptualization and designing the user interface. Throughout the development, I relied solely on my own skills and expertise, without resorting to tutorials, templates, or boilerplate code.
 
-This application was created based on how a tax accountant and a programmer think, trying to create the best user experience from the knowledge of both. It is worth noting that this application is not something a tax accountant or a programmer could construct by them-self. It necessitates a deep understanding of both disciplines to bring it to fruition.
+This application was created based on how a tax accountant and a programmer think, trying to create the best user experience from the knowledge of both. It is worth noting that this application is not something a tax accountant or a programmer could construct on their own. It necessitates a deep understanding of both disciplines to bring it to fruition.
 
-The creation of this project was driven by my desire to enhance my programming abilities and to derive personal satisfaction from merging my interests in programming and tax accounting. As I continue to expand and add more features, the complexity of the project grows, requiring meticulous attention. To simplify the application, I employed Redux to streamline the management of global state. However, the intricate nature of the tax codes in the United States and various States introduces additional challenges. Nevertheless, I am enthusiastic about the development of this application and embrace any obstacles that come my way.
+The creation of this project was driven by my own desire to enhance my programming abilities and to derive personal satisfaction from merging my interests in programming and tax accounting. As I continue to expand and add more features, the complexity of the project grows, requiring meticulous attention. To simplify the application, I employed Redux to streamline the management of global state. However, the intricate nature of the tax codes in the United States and various States introduces additional challenges. Nevertheless, I am enthusiastic about the development of this application and embrace any obstacles that comes my way.
 
-The primary purpose of this application is to assist individuals and accountants in estimating quarterly taxes for them-self or their clients. Given the complexity of the United States and State tax codes, not everyone can afford the services of a high-end tax accountant. Hence, my aim is to make this application accessible to freelancers, CPAs, EAs, accountants, and others.
+The primary purpose of this application is to assist individuals and accountants in estimating quarterly taxes for themselves or their clients. Given the complexity of the United States and State tax codes, not everyone can afford the services of a high-end tax accountant. Hence, my aim is to make this application accessible to freelancers, CPAs, EAs, accountants, and others.
 
 In developing this application, I had to make choices regarding the level of complexity to incorporate. Constructing a comprehensive tax projection application, accounting for every intricate detail, is an arduous and time-consuming task. The intricate nature of the United States and State tax codes further exacerbates this challenge. Hence, I had to strike a balance between the time investment and the complexity involved in building the application. It seems to resemble a problem of Big O Notation (a little coding joke) in terms of optimizing efficiency...
 
@@ -247,4 +247,4 @@ Version 1.0.0 is now live!
 
 ## Disclosure: :rotating_light:
 
-Although I do believe this tax projection to be accurate and I have tested it for bugs, do not rely upon this to estimate your own taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
+Although I do believe this tax projection application to be accurate and I have tested it for bugs, do not rely upon this to estimate your own taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
