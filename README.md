@@ -196,9 +196,13 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.3.2**
+**Current version: 1.3.3**
 
 ### Release Notes Log
+
+07/19/23 1.3.3
+
+- Certain sub sections in the Input Numbers Section will now only be negative or positive. This is to help prevent errors in inputting the wrong operation sign. Adjustments and Itemized Deductions will now only be allowed to be negative numbers. Federal Tax Payments and State Tax Payments will now only be allowed to be positive numbers.
 
 07/13/23 1.3.2
 
