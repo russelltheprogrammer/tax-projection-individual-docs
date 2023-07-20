@@ -71,6 +71,13 @@ This section is where one must choose the specific tax assumptions that are used
 - State Residency: Choose state of residency. At this time this tax projection application is limited in its number of choices.
 - Safe Harbor Comparison: This allows the safe harbor comparison to be included in the calculation. See information and explanation above. [What Are Quarterly Estimated Taxes?](https://github.com/russelltheprogrammer/tax-projection-individual-docs#what-are-quarterly-estimated-taxes)
 
+#### Safe Harbor Calculation (Prior Year Tax)
+
+This section is the area to input prior year tax numbers. If this section is appearing then the user must have chose "Yes" to Safe Harbor Comparison in Tax Assumptions.
+
+- S/H Percentage: This will be the safe harbor percentage that the prior year tax will be multiplied by. This is usually 100% or 110% depending on your prior year Adjusted Gross Income (AGI). Check your prior year tax return and the IRS or state rules to determine your correct percentage.
+- Prior Year Tax: This is the tax from your prior year tax return. Check your prior year tax return for this number.
+
 #### Input Numbers
 
 It is recommended to start here to learn more about line numbers. Instructions can change from year to year. [IRS 1040 Instructions 2022](https://www.irs.gov/pub/irs-pdf/i1040gi.pdf)
@@ -143,6 +150,21 @@ Itemized deductions are a substitute for the standard deduction. Specific itemiz
 - Third Quarter Estimate: As description states
 - Fourth Quarter Estimate: As description states
 - Credits: State tax credits which reduce tax. Credits have certain thresholds, phase-outs, and limitations.
+
+#### Income, Deduction, and Tax Summary
+
+This is the summary section based upon the inputs from the other sections. A few notes about this section.
+
+- Adjusted Gross Income: Income less adjustments before standard or itemized deductions.
+- Capital Loss Limitation: Capital losses are limited to $3,000. The software will automatically limit your losses to $3,000.
+- Standard or Itemized: This will depend upon the choice made in the Tax Assumptions section. Whichever is chosen will appear here. In the future, this will be optimized so the user does not need to choose what output will be shown.
+- Taxable Income: Income that is subject to Federal or State taxes.
+- Total Calculated Tax: Tax calculated based upon taxable income by using Federal or State tax rates.
+- Total All Tax: Total Calculated Tax + Other Taxes and Federal Child Tax Credits.
+- Total Quarterly Tax Due: Total All Tax multiplied by the quarter factor. This is the amount of Quarterly Tax Due before applying tax payments made throughout the year.
+- Total Tax Due /(Overpaid): Amount of quarterly tax due for the quarter or the amount of tax overpaid for the quarter. This is based on actual estimated income and deductions.
+- Safe Harbor Tax Due /(Overpaid): This will only appear if you have selected "Yes" to Safe Harbor Comparison in Tax Assumptions. This is the amount of Safe Harbor Tax Due or Overpaid for the specific quarter based upon the selections made in the Safe Harbor Comparison section.
+- Minimum Tax Due /(Overpaid): Amount of recommended payment to be paid for the quarter or amount estimated to be overpaid for the quarter.
 
 ## More Features? :bulb:
 
