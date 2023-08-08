@@ -218,9 +218,16 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.3.3**
+**Current version: 1.3.4**
 
 ### Release Notes Log
+
+08/08/23 1.3.4
+
+- INPUT NUMBERS section now has buttons as examples instead of word descriptions.
+- Added a print button to the bottom of INCOME, DEDUCTION, AND TAX SUMMARY for quick print ability.
+- Added the ability to export data in INCOME, DEDUCTION, AND TAX SUMMARY to CSV format. Button is at the bottom of section.
+- Fixed a bug in the input section that was causing certain numbers becoming positive and negative.
 
 07/19/23 1.3.3
 
@@ -271,6 +278,6 @@ Version 1.1.0
 06/20/23
 Version 1.0.0 is now live!
 
-## Disclosure: :rotating_light:
+## Disclosure :rotating_light:
 
 Although I do believe this tax projection application to be accurate and I have tested it for bugs, do not rely upon this to estimate your own taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
