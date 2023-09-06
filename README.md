@@ -218,9 +218,13 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.3.4**
+**Current version: 1.3.5**
 
 ### Release Notes Log
+
+09/06/23 1.3.5
+
+- Fix bug in quarter factor calculation not giving exact number for 3rd quarter tax due. Number was slightly off.
 
 08/08/23 1.3.4
 
