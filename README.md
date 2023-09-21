@@ -66,7 +66,10 @@ This section is where one must choose the specific tax assumptions that are used
 
 - Quarter: There are 4 quarters. Choose the respective quarter that is applicable. IRS quarters are from the following dates, Quarter 1 (1/1 to 3/31), Quarter 2 (4/1 - 5/30), Quarter 3 (6/1 - 8/31), and Quarter 4 (9/1 - 12/31). Most states have the same quarters but some states have different percentages of tax that must be paid per quarter.
 - Filing Status: There are 4 options, Single, MFJ (Married Filing Joint), MFS (Married Filing Separate), HOH (Head Of Household)
-- Standard/Itemized: Standard Deduction is the default deduction while Itemized Deduction is an aggregate of multiple expenses which are limited according to specific thresholds and limitations. Some of them are medical expenses, charitable contributions, SALT (State And Local Taxes), interest expense including mortgage interest expense, and others.
+- Standard/Itemized: Optimize is the default value which will optimize itemized deductions versus the standard deduction based on the user's specific inputs. The value which gives the taxpayer the greatest deduction will be used. You can turn off optimization by choosing the other two options available (Standard or Itemized).
+
+Standard Deduction is the default deduction while Itemized Deduction is an aggregate of multiple expenses which are limited according to specific thresholds and limitations. Some of them are medical expenses, charitable contributions, SALT (State And Local Taxes), interest expense including mortgage interest expense, and others. See the Itemized Deductions Documentation for more specific details [ITEMIZED DEDUCTIONS](https://github.com/russelltheprogrammer/tax-projection-individual-docs#itemized-deductions)
+
 - Dependents: Number of dependents that the taxpayer has. This includes children, certain relatives, and others.
 - State Residency: Choose state of residency. At this time this tax projection application is limited in its number of choices.
 - Safe Harbor Comparison: This allows the safe harbor comparison to be included in the calculation. See information and explanation above. [What Are Quarterly Estimated Taxes?](https://github.com/russelltheprogrammer/tax-projection-individual-docs#what-are-quarterly-estimated-taxes)
@@ -106,13 +109,24 @@ These adjustments reduce Adjusted Gross Income directly.
 
 ##### ITEMIZED DEDUCTIONS
 
-Itemized deductions are a substitute for the standard deduction. Specific itemized deductions are limited to certain caps or thresholds above a percentages of Adjusted Gross Income. At this time, this application does not calculate these limitations automatically. In the future, it is intended to be added, including what is more beneficial, standard deduction or itemized deduction.
+Itemized deductions are a substitute for the standard deduction. Specific itemized deductions are limited to certain caps or thresholds above a percentages of Adjusted Gross Income. At this time, this application will only calculate the most common limitations automatically (see details below of what is included). In the future, it is intended to add more specific use cases and calculations to be even more granular and accurate. Check the IRS or specific state rules and instructions to see what limitations for less common items or items not included might impact your own tax scenario.
 
-- Medical: Expenses for medical care such as doctors, prescription drugs, health insurance premiums (not self-employed or self-employed health insurance that is limited), and other qualified medical care.
-- Taxes Paid: State And Local Taxes (SALT) paid such as state income taxes, real estate taxes, and other taxes.
+Items with a **(SL)** next to them will automatically be limited, other items will have to be calculated and limited manually.
+SL = Software Will Limit
+
+- Medical **(SL)**: Expenses for medical care such as doctors, prescription drugs, health insurance premiums (not self-employed or self-employed health insurance that is limited), and other qualified medical care.
+- Taxes Paid **(SL)**: State And Local Taxes (SALT) paid such as state income taxes, real estate taxes, and other taxes.
 - Interest Paid: Interest expense through loans, investments, home mortgage, and others.
-- Charity: Charitable donations made to qualified organizations. Cash and non-cash donations are allowed but subject to different limitations.
+
+- Charity: Charitable donations made to qualified organizations. Cash and non-cash donations are allowed but subject to different limitations. Note there are 4 different types of charitable deductions included in this software. Check the specific rules on charitable donations to see how much should be limited. Note **Charity Other** is not limited by the software.
+
+- Charity 60% **(SL)**: Commonly cash contributions to public charities.
+- Charity 50% **(SL)**: Commonly contributions to specific charitable organization not in the 60% category.
+- Charity 30% **(SL)**: Commonly the donation of appreciated capital assets such as stocks (20% to non-public charities).
+- Charity Other: This is an adjustment in the input section in case you want to adjust your total charitable donations number.
+
 - Other Itemized Deductions: Any other itemized deductions not listed above.
+- State Portfolio Deductions **(SL)**: Portfolio deductions limited to 2% of adjusted gross income which are disallowed on the Federal level due to the passing of TCJA in 2017. Some states still allow this deduction. Common deductions would be tax preparation fees, investment management/advisory fees, unreimbursed employee business expenses, safe deposit box rentals, business dues/subscriptions, union dues, and other expenses.
 - State Specific Itemized Deductions: Any other state itemized deductions not listed above.
 
 ##### FEDERAL OTHER
@@ -157,7 +171,7 @@ This is the summary section based upon the inputs from the other sections. A few
 
 - Adjusted Gross Income: Income less adjustments before standard or itemized deductions.
 - Capital Loss Limitation: Capital losses are limited to $3,000. The software will automatically limit your losses to $3,000.
-- Standard or Itemized: This will depend upon the choice made in the Tax Assumptions section. Whichever is chosen will appear here. In the future, this will be optimized so the user does not need to choose what output will be shown.
+- Standard or Itemized: This will depend upon the choice made in the Tax Assumptions section. Whichever is chosen will appear here. If the optimized option is chosen both will appear but the deduction granting the greatest deduction will be the one used in the calculation.
 - Taxable Income: Income that is subject to Federal or State taxes.
 - Total Calculated Tax: Tax calculated based upon taxable income by using Federal or State tax rates.
 - Total All Tax: Total Calculated Tax + Other Taxes and Federal Child Tax Credits.
@@ -218,9 +232,19 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.3.5**
+**Current version: 1.4.0**
 
 ### Release Notes Log
+
+09/21/23 1.4.0
+
+- Main feature: Added itemized and standard optimization option for IRS and New York (see docs for specific details). This option will allow the user to input their itemized deductions and the
+  software will automatically calculate if itemized deductions or standard deduction is more beneficial.
+- Updated CSV export for new itemized deductions optimization feature
+- Code refactor, separate constants into more readable files
+- Other code cleanup and minor bug fixes
+- Update backend types.
+- Updated Docs for new feature
 
 09/06/23 1.3.5
 
