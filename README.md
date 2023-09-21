@@ -112,7 +112,8 @@ These adjustments reduce Adjusted Gross Income directly.
 Itemized deductions are a substitute for the standard deduction. Specific itemized deductions are limited to certain caps or thresholds above a percentages of Adjusted Gross Income. At this time, this application will only calculate the most common limitations automatically (see details below of what is included). In the future, it is intended to add more specific use cases and calculations to be even more granular and accurate. Check the IRS or specific state rules and instructions to see what limitations for less common items or items not included might impact your own tax scenario.
 
 Items with a **(SL)** next to them will automatically be limited, other items will have to be calculated and limited manually.
-SL = Software Will Limit
+
+**SL = Software Will Limit**
 
 - Medical **(SL)**: Expenses for medical care such as doctors, prescription drugs, health insurance premiums (not self-employed or self-employed health insurance that is limited), and other qualified medical care.
 - Taxes Paid **(SL)**: State And Local Taxes (SALT) paid such as state income taxes, real estate taxes, and other taxes.
