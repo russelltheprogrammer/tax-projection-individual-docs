@@ -233,9 +233,18 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.0**
+**Current version: 1.4.1**
 
 ### Release Notes Log
+
+10/31/23 1.4.1
+
+- Browser tab title updated
+- UX/UI of tax assumptions box updated for better user experience
+- UX/UI update for RESET button and QTR & YEAR buttons
+- Submit button removed from tax assumptions. When an item is now chosen in the tax assumptions section it will be automatically updated.
+- Numbers input section, description colors changed from blue and red to black for better readability.
+- Experiment with changing UI/UX of Income, Deduction, and Tax Summary section. Added bold top and bottom borders for total rows and made background color lighter.
 
 09/21/23 1.4.0
 
