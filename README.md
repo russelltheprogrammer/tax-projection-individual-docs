@@ -309,6 +309,6 @@ Version 1.0.0 is now live!
 
 ## Disclosure :rotating_light:
 
-Although I do believe this tax projection application to be accurate and I have tested it for bugs, do not rely upon this to estimate your own taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
+Although I do believe this tax projection application to be accurate and I have tested it for bugs, do not rely upon this to estimate your own quarterly income taxes or to project other taxes. Taxes are complicated and this projection does not include all tax scenarios. Please consult a tax professional while using this application.
 
 Copyright (c) 2023 - All Rights Reserved - Russell Monteith CPA PLLC
