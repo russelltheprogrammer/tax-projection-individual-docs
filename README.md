@@ -233,9 +233,18 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.1**
+**Current version: 1.4.2**
 
 ### Release Notes Log
+
+11/03/23 1.4.2
+
+- Input Numbers section mobile responsiveness and readability improvements.
+- Change hide rows toggle in Income, Deduction, and Tax Summary to a checkbox.
+- Enhanced readability of Income, Deduction, and Tax Summary.
+- Make Tax Assumptions, Safe Harbor Calculation, and Input Numbers sections blend together better.
+- Minor footer changes
+- Consolidate header options
 
 10/31/23 1.4.1
 
