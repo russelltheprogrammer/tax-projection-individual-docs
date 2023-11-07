@@ -233,9 +233,13 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.2**
+**Current version: 1.4.3**
 
 ### Release Notes Log
+
+11/07/23 1.4.3
+
+- First round of font style updates
 
 11/03/23 1.4.2
 
