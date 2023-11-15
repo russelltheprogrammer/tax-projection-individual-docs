@@ -233,9 +233,14 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.4**
+**Current version: 1.4.5**
 
 ### Release Notes Log
+
+11/14/23 1.4.5
+
+- Tax Assumptions reset button will now reset safe harbor numbers
+- Safe Harbor section hover made more subtle
 
 11/08/23 1.4.4
 
