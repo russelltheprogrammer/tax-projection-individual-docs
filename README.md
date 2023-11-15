@@ -233,9 +233,14 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.5**
+**Current version: 1.4.6**
 
 ### Release Notes Log
+
+11/15/23 1.4.6
+
+- Fixed bug where safe harbor numbers were not loading properly
+- Added title to tax notes section
 
 11/14/23 1.4.5
 
