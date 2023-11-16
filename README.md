@@ -233,9 +233,15 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.6**
+**Current version: 1.4.7**
 
 ### Release Notes Log
+
+11/16/23 1.4.7
+
+- Fixed safe harbor numbers not being reset when a client is deleted
+- You can now save your tax notes to the database!
+- Changed design of title of tax notes section
 
 11/15/23 1.4.6
 
