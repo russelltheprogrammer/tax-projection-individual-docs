@@ -185,7 +185,7 @@ This is the summary section based upon the inputs from the other sections. A few
 
 I continue to add more features and make a more advanced version of this application. However, I build this application all by myself and I have limited time capacity. There are a lot of additional features I would like to add to make this application more accurate and more functional, including adding additional scenarios, more state jurisdictions, and the list goes on...
 
-If you have a specific feature requests? Please let me know.
+Do you have a specific feature request? Please let me know.
 
 ## Feedback?
 
