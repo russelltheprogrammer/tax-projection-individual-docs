@@ -233,9 +233,15 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.4.7**
+**Current version: 1.5.0**
 
 ### Release Notes Log
+
+12/04/23 1.5.0
+
+- Added SideBar for better page navigation
+- Some resizing of components for better blending of components
+- Major code-refactoring and organization
 
 11/16/23 1.4.7
 
