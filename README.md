@@ -233,9 +233,15 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.5.0**
+**Current version: 1.5.1**
 
 ### Release Notes Log
+
+12/05/23 1.5.1
+
+- Redesign of multiple sections
+- Color changes
+- Minor responsiveness improvements
 
 12/04/23 1.5.0
 
