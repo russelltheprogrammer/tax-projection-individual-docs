@@ -127,7 +127,7 @@ Items with a **(SL)** next to them will automatically be limited, other items wi
 - Charity Other: This is an adjustment in the input section in case you want to adjust your total charitable donations number.
 
 - Other Itemized Deductions: Any other itemized deductions not listed above.
-- State Portfolio Deductions **(SL)**: Portfolio deductions limited to 2% of adjusted gross income which are disallowed on the Federal level due to the passing of TCJA in 2017. Some states still allow this deduction. Common deductions would be tax preparation fees, investment management/advisory fees, unreimbursed employee business expenses, safe deposit box rentals, business dues/subscriptions, union dues, and other expenses.
+- State Portfolio Deductions **(SL)**: These are deductions limited to 2% of adjusted gross income, which are no longer allowed at the federal level due to the Tax Cuts and Jobs Act (TCJA) of 2017. However, some states continue to permit these deductions such as New York. Common types of state portfolio deductions include tax preparation fees, investment management/advisory fees, unreimbursed employee business expenses, safe deposit box rentals, business dues/subscriptions, union dues, and other similar expenses. Note: This summary focuses on common deductions and does not encompass all specific use cases included in the instructions.
 - State Specific Itemized Deductions: Any other state itemized deductions not listed above.
 
 ##### FEDERAL OTHER
