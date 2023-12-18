@@ -233,9 +233,18 @@ In developing this application, I had to make choices regarding the level of com
 
 ## Version - Latest Release Notes :rocket:
 
-**Current version: 1.5.1**
+**Current version: 1.5.2**
 
 ### Release Notes Log
+
+12/18/23 1.5.2
+
+- Multiple UX and UI updates (see below for main changes)
+- Main color scheme changed
+- Drop down selection menus in Tax Assumptions and Safe Harbor Calculation redesigned
+- Input fields redesigned
+- Some responsiveness improvements
+- Database connection message has been improved and is now more accurate
 
 12/05/23 1.5.1
 
