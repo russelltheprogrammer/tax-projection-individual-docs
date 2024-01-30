@@ -160,7 +160,7 @@ Items with a **(SL)** next to them will automatically be limited, other items wi
    **Adjustments - Addition Adjustments**
   - Interest expense on money borrowed to purchase or carry bonds or securities whose interest is subject to New York income tax, but exempt from federal income tax, if this interest expense was not deducted on your federal return or shown as a New York subtraction
   - Ordinary and necessary expenses paid or incurred during current tax year in connection with income, or property held for the production of income, which is subject to New York income tax but exempt from federal income tax, if these expenses were not deducted on your federal return or shown as a New York subtraction
-  - Amortization of bond premium attributable to curernt tax year on any bond whose interest income is subject to New York income tax, but exempt from federal income tax, if this amortization was not deducted on your federal return or shown as a New York subtraction
+  - Amortization of bond premium attributable to current tax year on any bond whose interest income is subject to New York income tax, but exempt from federal income tax, if this amortization was not deducted on your federal return or shown as a New York subtraction
   - Amount of disallowed union dues included on the Unreimbursed employee business expenses worksheet, line 4, that were subject to the 2% miscellaneous itemized deduction floor
 
 ##### FEDERAL OTHER
