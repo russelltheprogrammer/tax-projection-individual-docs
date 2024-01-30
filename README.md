@@ -130,9 +130,13 @@ Items with a **(SL)** next to them will automatically be limited, other items wi
 - State Portfolio Deductions **(SL)**: These are deductions limited to 2% of adjusted gross income, which are no longer allowed at the federal level due to the Tax Cuts and Jobs Act (TCJA) of 2017. However, some states continue to permit these deductions such as New York. Common types of state portfolio deductions include tax preparation fees, investment management/advisory fees, unreimbursed employee business expenses, safe deposit box rentals, business dues/subscriptions, union dues, and other similar expenses. Note: This summary focuses on common deductions and does not encompass all specific use cases included in the instructions (see note below).
 - State Specific Itemized Deductions: Any other state itemized deductions not listed above.
 
-- Note About New York Itemized Deduction Calculation: It does not include the following items and currently a manual adjustment will be needed. Please use 'State Specific Itemized Deductions' section to make this adjustment.
-  - College tuition itemized deduction
-  - Casualty and theft losses (including of income-producing property)
+- Note About New York Itemized Deduction Calculation: It does not include the following items listed below and currently a manual adjustment will be needed. Please use 'State Specific Itemized Deductions' section to make this adjustment.
+
+  **Casualty and theft losses**
+  - Casualty and theft losses
+
+  **Other itemized deductions**
+  - Casualty and theft losses of income-producing property
   - Gambling losses
   - Federal estate tax on income in respect of a decedent
   - Deduction for amortization bond premium
@@ -142,11 +146,18 @@ Items with a **(SL)** next to them will automatically be limited, other items wi
   - Impairment-related work expenses of a disabled person
   - Federal qualified disaster loss
   - Other itemized deductions from partnerships
+
+  **Adjustments - Subtraction Adjustments**
   - Ordinary and necessary expenses paid or incurred in connection with income, or property held for the production of income, which is exempt from New York income tax but only to the extent included on Form IT-196, lines 1 through 40
   - Amortization of bond premium attributable to current tax year on any bond whose interest income is exempt from New York income tax, but only to the extent included in Form IT-196, lines 1 through 40
   - Interest expense on money borrowed to purchase or carry bonds or securities whose interest is exempt from New York income tax, but only to the extent included in Form IT-196, lines 1 through 40
   - If you are a shareholder of a federal S corporation that could elect but did not elect to be a New York S corporation, any S corporation deductions included in Form IT-196, lines 1 through 40. If an S corporation short year is involved, you must allocate those deductions
   - Premiums paid for long-term care insurance to the extent deducted in determining federal taxable income
+
+  **Adjustments - College tuition itemized deduction**
+  - College tuition itemized deduction
+  
+   **Adjustments - Addition Adjustments**
   - Interest expense on money borrowed to purchase or carry bonds or securities whose interest is subject to New York income tax, but exempt from federal income tax, if this interest expense was not deducted on your federal return or shown as a New York subtraction
   - Ordinary and necessary expenses paid or incurred during current tax year in connection with income, or property held for the production of income, which is subject to New York income tax but exempt from federal income tax, if these expenses were not deducted on your federal return or shown as a New York subtraction
   - Amortization of bond premium attributable to curernt tax year on any bond whose interest income is subject to New York income tax, but exempt from federal income tax, if this amortization was not deducted on your federal return or shown as a New York subtraction
