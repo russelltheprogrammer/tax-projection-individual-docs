@@ -130,7 +130,7 @@ Items with a **(SL)** next to them will automatically be limited, other items wi
 - State Portfolio Deductions **(SL)**: These are deductions limited to 2% of adjusted gross income, which are no longer allowed at the federal level due to the Tax Cuts and Jobs Act (TCJA) of 2017. However, some states continue to permit these deductions such as New York. Common types of state portfolio deductions include tax preparation fees, investment management/advisory fees, unreimbursed employee business expenses, safe deposit box rentals, business dues/subscriptions, union dues, and other similar expenses. Note: This summary focuses on common deductions and does not encompass all specific use cases included in the instructions (see note below).
 - State Specific Itemized Deductions: Any other state itemized deductions not listed above.
 
-- Note About New York Itemized Deduction Calculation: It does not include the following items and currently a manual adjustment will be needed. Please use 'State Specific Itemized Deductions' section to make this adjustment 
+- Note About New York Itemized Deduction Calculation: It does not include the following items and currently a manual adjustment will be needed. Please use 'State Specific Itemized Deductions' section to make this adjustment.
   - College tuition itemized deduction
   - Casualty and theft losses (including of income-producing property)
   - Gambling losses
