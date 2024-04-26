@@ -83,7 +83,7 @@ This section is the area to input prior year tax numbers. If this section is app
 
 #### Input Numbers
 
-It is recommended to start here to learn more about line numbers. Instructions can change from year to year. [IRS 1040 Instructions 2022](https://www.irs.gov/pub/irs-pdf/i1040gi.pdf)
+It is recommended to start here to learn more about line numbers. Instructions can change from year to year. [IRS 1040 Instructions 2023](https://www.irs.gov/pub/irs-pdf/i1040gi.pdf)
 
 ##### INCOME
 
