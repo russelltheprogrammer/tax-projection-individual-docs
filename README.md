@@ -270,6 +270,10 @@ In developing this application, I had to make choices regarding the level of com
 
 ### Release Notes Log
 
+4/29/24 1.5.3
+
+- Welcome page added to website to greet users and lets users know more information about the application
+
 12/18/23 1.5.2
 
 - Multiple UX and UI updates (see below for main changes)
