@@ -270,6 +270,11 @@ In developing this application, I had to make choices regarding the level of com
 
 ### Release Notes Log
 
+4/30/24 1.5.4
+
+- Updated UX/UI for header, sidebar, and footer in tax application section
+- Added alert message to mobile/devices with smaller screen sizes
+
 4/29/24 1.5.3
 
 - Welcome page added to website to greet users and lets users know more information about the application
