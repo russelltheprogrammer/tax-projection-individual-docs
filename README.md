@@ -73,6 +73,7 @@ Standard Deduction is the default deduction while Itemized Deduction is an aggre
 - Dependents: Number of dependents that the taxpayer has. This includes children, certain relatives, and others.
 - State Residency: Choose state of residency. At this time this tax projection application is limited in its number of choices.
 - Safe Harbor Comparison: This allows the safe harbor comparison to be included in the calculation. See information and explanation above. [What Are Quarterly Estimated Taxes?](https://github.com/russelltheprogrammer/tax-projection-individual-docs#what-are-quarterly-estimated-taxes)
+- Tax Year: This will change the tax rates between the different tax years. Only options available are in the dropdown box. Rates are updated periodically and some values are not always up to date. Check change log and the footer for additional information regarding this topic.
 
 #### Safe Harbor Calculation (Prior Year Tax)
 
@@ -269,6 +270,10 @@ In developing this application, I had to make choices regarding the level of com
 **Current version: 1.5.2**
 
 ### Release Notes Log
+
+1/09/25 1.5.5
+
+- Add new tax assumption "Tax Year" which allows the ability to change the tax rates between different years. Tax rates are up to date as of the date of this release.
 
 4/30/24 1.5.4
 
