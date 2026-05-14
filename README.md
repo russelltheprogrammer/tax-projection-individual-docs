@@ -271,6 +271,10 @@ In developing this application, I had to make choices regarding the level of com
 
 ### Release Notes Log
 
+5/13/26 1.5.6
+
+- Added 2026 tax rates as close as possible. Some 2026 tax rates were not available as of this update.
+
 1/09/25 1.5.5
 
 - Add new tax assumption "Tax Year" which allows the ability to change the tax rates between different years. Tax rates are up to date as of the date of this release.
